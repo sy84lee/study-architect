@@ -1,2 +1,2 @@
 # study-architect
-images/System Context.jpg
+<img src:"<./images/System Context.jpg>">
