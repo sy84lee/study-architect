@@ -15,54 +15,71 @@
 ## 2. System Overview
 1. System Context Diagram
    + Business Goal을 고려하여 System이 가져야 할 기능들에 대해 System Context Diagram을 작성한다.
-<img src="https://user-images.githubusercontent.com/77768139/186164756-07239ca9-3ba6-4aa2-8cf9-144da6d991d4.jpg" width="800" height="800"/>
+   <img src="https://user-images.githubusercontent.com/77768139/186164756-07239ca9-3ba6-4aa2-8cf9-144da6d991d4.jpg" width="800" height="800"/>
 
 2. External Entity
    + System Context Diagram을 통해 External Entity 목록을 작성한다.
-![external_entity](https://user-images.githubusercontent.com/77768139/186418814-1ba3cf5e-411f-4480-a33d-06d430761d65.JPG)
+   <img src="https://user-images.githubusercontent.com/77768139/186418814-1ba3cf5e-411f-4480-a33d-06d430761d65.JPG" width="500" height="300"/>
    
 3. Interface List
    + System Context Diagram을 통해 Interface List 목록을 작성한다.
-![external_interface](https://user-images.githubusercontent.com/77768139/186418950-91616c49-1f0a-4fcc-82be-8602785f0fa2.JPG)
+   <img src="https://user-images.githubusercontent.com/77768139/186418950-91616c49-1f0a-4fcc-82be-8602785f0fa2.JPG" width="500" height="300"/>
 
 4. System Feature 
    + Interface List을 참고하여 System Feature들을 도출한다.
-![system_feature](https://user-images.githubusercontent.com/77768139/186419216-5a2d73d8-1f61-4b8b-8057-3a0b6a603ee9.JPG)
+   <img src="https://user-images.githubusercontent.com/77768139/186419216-5a2d73d8-1f61-4b8b-8057-3a0b6a603ee9.JPG" width="500" height="250"/>
+
 
 ## 3. Architectural Driver
 1. Use Case Model
    + Use Case Diagram
       + System Feature을 Use Case Digram으로 나타낸다.
       + Use Case Diagram을 작성해보면서 누락된 Actor, Feature가 있는지 확인한다.
+   
    + Actor List
       + Use Case Diagram에서 작성한 Actor List를 작성한다.
-![actor_list](https://user-images.githubusercontent.com/77768139/186419025-0d75bb45-ce4b-4a0b-8b55-629137867a09.JPG)
+      <img src="https://user-images.githubusercontent.com/77768139/186419025-0d75bb45-ce4b-4a0b-8b55-629137867a09.JPG" width="500" height="250"/>
+   
    + Use Case List
       + Use Case Diagram에서 작성한 Use Case List를 작성한다.
-![usecase_list](https://user-images.githubusercontent.com/77768139/186419338-686121b2-15d5-4322-8bb1-0d01bc8ebba1.JPG)
+      <img src="https://user-images.githubusercontent.com/77768139/186419338-686121b2-15d5-4322-8bb1-0d01bc8ebba1.JPG" width="500" height="250"/>
+   
    + Use Case Description
       + 각 Use Case의 Description을 작성한다.
-![usecase_description](https://user-images.githubusercontent.com/77768139/186419409-a3f845d3-701b-4d61-8fb7-a2aaca8fad54.JPG)
+      <img src="https://user-images.githubusercontent.com/77768139/186419409-a3f845d3-701b-4d61-8fb7-a2aaca8fad54.JPG" width="500" height="550"/>
 
 2. Quality Attribute Scenario
    + Quality Attribute는 매우 중요하다.
    + System 또는 Software의 Architecture을 정하는 Quality Attribute이다.
    + Quality Attribute Scenario의 수가 늘어날수록 System 또는 Software의 Architecture를 작성하는 것은 어렵겠지만, 그만큼 단단한 System 또는 Software를 만들 수 있을 것이라 생각한다.
+   
    + QA Scenario List
+   <img src="https://user-images.githubusercontent.com/77768139/186421711-a4fd9564-48d4-4672-9f23-e8dce73c731f.JPG" width="500" height="300"/>
+   
    + QA Scenario
+   <img src="https://user-images.githubusercontent.com/77768139/186421792-26bec5c8-7556-48ca-bb77-bb74dd13cd1d.JPG" width="500" height="300"/>
+   
    
 ## 4. Top Level Design Description
    + Top Level Design은 각각의 Component들로 구성되어 있으며, 각 Component들은 하위 Component들로 구성되어 질 수 있다.
    + Top Level Design은 Reference Architecture을 참고하거나 Architecture Pattern을 적용하는 것이 쉽게 시작할 수 있는 방법이다.
    + 여기서는 Layred Pattern을 적용하여 진행하였다.
+   
 1. Structure View
    + Static Structure Diagram을 작성하고, Static Structure Diagram을 구성하고 있는 각 Component의 Description을 작성한다.
    + Static Structure Diagram
+   <img src="https://user-images.githubusercontent.com/77768139/186421950-47afb3a5-d92d-4a78-8741-6e9fdefeb105.jpg" width="700" height="700"/>
    + Component Description
+      + 각 컴포넌트들의 명세를 작성한다.
+      
 2. Behavior View
    + Top Level 수준에서 Behavior Diagramd을 작성한다.
+   <img src="https://user-images.githubusercontent.com/77768139/186422084-0730ba2a-abe9-4eb6-986d-abf09e4df703.jpg" width="500" height="700"/>
+   
 3. Deployment View
    + Deployment Diagram을 작성한다.
+   <img src="https://user-images.githubusercontent.com/77768139/186422137-24fbd46b-4129-494a-a12a-c726aa3897a7.jpg" width="700" height="600"/>
+   
 4. Design Decision
    + Architecture을 작성할 때 필요한 Design Decision을 작성한다.
    
