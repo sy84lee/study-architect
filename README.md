@@ -40,6 +40,8 @@
    + Quality Attribute는 매우 중요하다.
    + System 또는 Software의 Architecture을 정하는 Quality Attribute이다.
    + Quality Attribute Scenario의 수가 늘어날수록 System 또는 Software의 Architecture를 작성하는 것은 어렵겠지만, 그만큼 단단한 System 또는 Software를 만들 수 있을 것이라 생각한다.
+   + QA Scenario List
+   + QA Scenario
    
 ## 4. Top Level Design Description
    + Top Level Design은 각각의 Component들로 구성되어 있으며, 각 Component들은 하위 Component들로 구성되어 질 수 있다.
