@@ -1,11 +1,15 @@
 # How to make Software Architecture
 + 여기서 말하고 있는 방법이 정답은 아니다.
 + Software Architecture를 작성하는 방법 중에 하나를 말한다.
++ SW 설계는 많은 고민과 결정을 필요로 하는 작업이다.
++ 아래에 삽입된 예제들은 일부만 발췌하였다. 원본 문서는 git에서 다운로드 할 수 있다.
 
 
 ## 1. Project Overview
 1. Business Context Diagram
    + Business Context Diagram을 작성해보면서 프로젝트와 관련된 Stakeholder들을 조사한다.
+   + Stakeholder를 찾는 작업은 중요한 작업이다.
+   + 프로젝트에서 개발하고자 하는 System의 Feature는 Stakeholder로부터 나오기 때문이다.
    <img src="https://user-images.githubusercontent.com/77768139/186428083-5f7e2988-f73e-4867-b191-397d8f83d376.jpg" width="500" height="500"/>
    
 2. Stakeholder List
