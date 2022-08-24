@@ -19,6 +19,9 @@
 3. Business Goal
    + Stakeholder들의 Business Goal이 무엇인지 작성한다.
    + Business Goal은 System이 가져야 할 System Feature을 도출하는데 사용된다.
+   + Business Goal은 시스템 요구사항이 아니다.
+   + 상대방의 입장에서 목표를 작성해야 한다. 
+   + 즉, Stakeholder들은 모두 개발자가 아니다. 시스템에 대해 전문적인 지식을 가지고 있지 않을 것이다.
    <img src="https://user-images.githubusercontent.com/77768139/186430895-a8e18e8a-543f-4f3e-a336-2327e332cd55.JPG" width="500" height="300"/>
 
 ## 2. System Overview
@@ -57,6 +60,8 @@
    
    + Use Case Description
       + 각 Use Case의 Description을 작성한다.
+      + Event Flow을 작성할 때 중요한 점은 능동형태로 작성해야한다. 
+      + ex) Step 1: 사용자는 시스템에 버스 요청을 한다. Step 2: 시스템은 사용자 요청에 따라 버스 검색을 수행한다. Step 3: 시스템은 검색된 내용을 사용자에게 전송한다.)
       <img src="https://user-images.githubusercontent.com/77768139/186419409-a3f845d3-701b-4d61-8fb7-a2aaca8fad54.JPG" width="500" height="550"/>
 
 2. Quality Attribute Scenario
