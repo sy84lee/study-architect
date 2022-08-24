@@ -15,15 +15,19 @@
 ## 2. System Overview
 1. System Context Diagram
    + Business Goal을 고려하여 System이 가져야 할 기능들에 대해 System Context Diagram을 작성한다.
-
 <img src="https://user-images.githubusercontent.com/77768139/186164756-07239ca9-3ba6-4aa2-8cf9-144da6d991d4.jpg" width="800" height="800"/>
 
 2. External Entity
    + System Context Diagram을 통해 External Entity 목록을 작성한다.
-2. Interface List
+![external_entity](https://user-images.githubusercontent.com/77768139/186418814-1ba3cf5e-411f-4480-a33d-06d430761d65.JPG)
+   
+3. Interface List
    + System Context Diagram을 통해 Interface List 목록을 작성한다.
-2. System Feature 
+![external_interface](https://user-images.githubusercontent.com/77768139/186418950-91616c49-1f0a-4fcc-82be-8602785f0fa2.JPG)
+
+4. System Feature 
    + Interface List을 참고하여 System Feature들을 도출한다.
+![system_feature](https://user-images.githubusercontent.com/77768139/186419216-5a2d73d8-1f61-4b8b-8057-3a0b6a603ee9.JPG)
 
 ## 3. Architectural Driver
 1. Use Case Model
@@ -31,11 +35,15 @@
       + System Feature을 Use Case Digram으로 나타낸다.
       + Use Case Diagram을 작성해보면서 누락된 Actor, Feature가 있는지 확인한다.
    + Actor List
-      + Use Case Diagram에서 작성한 Actor List를 작성한다. 
+      + Use Case Diagram에서 작성한 Actor List를 작성한다.
+![actor_list](https://user-images.githubusercontent.com/77768139/186419025-0d75bb45-ce4b-4a0b-8b55-629137867a09.JPG)
    + Use Case List
       + Use Case Diagram에서 작성한 Use Case List를 작성한다.
+![usecase_list](https://user-images.githubusercontent.com/77768139/186419338-686121b2-15d5-4322-8bb1-0d01bc8ebba1.JPG)
    + Use Case Description
       + 각 Use Case의 Description을 작성한다.
+![usecase_description](https://user-images.githubusercontent.com/77768139/186419409-a3f845d3-701b-4d61-8fb7-a2aaca8fad54.JPG)
+
 2. Quality Attribute Scenario
    + Quality Attribute는 매우 중요하다.
    + System 또는 Software의 Architecture을 정하는 Quality Attribute이다.
