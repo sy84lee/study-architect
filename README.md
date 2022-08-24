@@ -55,3 +55,15 @@
    + Deployment Diagram을 작성한다.
 4. Design Decision
    + Architecture을 작성할 때 필요한 Design Decision을 작성한다.
+   
+## 5. Component Level Design Description
+   ++ 각 컴포넌트의 설계를 작성한다.
+   ++ Class들로 구성되어 있으며 Design Pattern이 적용될 수 있다.
+1. Static Structure Diagram
+   ++ Class Diagram을 통해 Static Structure View를 보여준다.
+   ++ 적용된 Design Pattern이 표현될 수 있다.
+2. Behavior Diagram
+   + Sequence Diagram을 통해 Behavior을 보여준다.
+
+## 6. Architecture Evaluation
+   ++ 각 Use Case들이 구현되어 있는지, 어느 요소에 포함이 되어 있는지 추적확인을 한다.
