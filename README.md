@@ -6,11 +6,16 @@
 ## 1. Project Overview
 1. Business Context Diagram
    + Business Context Diagram을 작성해보면서 프로젝트와 관련된 Stakeholder들을 조사한다.
+   <img src="https://user-images.githubusercontent.com/77768139/186428083-5f7e2988-f73e-4867-b191-397d8f83d376.jpg" width="500" height="500"/>
+   
 2. Stakeholder List
    + Business Context Diagram을 통해 Stakeholder 목록을 작성한다.
+   <img src="https://user-images.githubusercontent.com/77768139/186430740-33f6da97-ef90-4710-ae8b-101cda53b51d.JPG" width="500" height="300"/>
+   
 3. Business Goal
    + Stakeholder들의 Business Goal이 무엇인지 작성한다.
    + Business Goal은 System이 가져야 할 System Feature을 도출하는데 사용된다.
+   <img src="https://user-images.githubusercontent.com/77768139/186430895-a8e18e8a-543f-4f3e-a336-2327e332cd55.JPG" width="500" height="300"/>
 
 ## 2. System Overview
 1. System Context Diagram
