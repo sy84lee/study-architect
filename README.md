@@ -69,9 +69,7 @@
    + Static Structure Diagram을 작성하고, Static Structure Diagram을 구성하고 있는 각 Component의 Description을 작성한다.
    + Static Structure Diagram
    <img src="https://user-images.githubusercontent.com/77768139/186421950-47afb3a5-d92d-4a78-8741-6e9fdefeb105.jpg" width="700" height="700"/>
-   + Component Description
-      + 각 컴포넌트들의 명세를 작성한다.
-      
+         
 2. Behavior View
    + Top Level 수준에서 Behavior Diagramd을 작성한다.
    <img src="https://user-images.githubusercontent.com/77768139/186422084-0730ba2a-abe9-4eb6-986d-abf09e4df703.jpg" width="500" height="700"/>
