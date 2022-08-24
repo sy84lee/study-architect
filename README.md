@@ -80,15 +80,25 @@
    
 4. Design Decision
    + Architecture을 작성할 때 필요한 Design Decision을 작성한다.
+   + Design Decision List
+   <img src="https://user-images.githubusercontent.com/77768139/186426243-a57ae99a-4e83-4f09-a2c9-0e45a6b6ac46.JPG" width="500" height="200"/>
+   
+   + Design Decision
+   <img src="https://user-images.githubusercontent.com/77768139/186426367-33edb5d9-c070-4bb9-a5ac-48d131f66bd6.JPG" width="500" height="300"/>
    
 ## 5. Component Level Design Description
-   ++ 각 컴포넌트의 설계를 작성한다.
-   ++ Class들로 구성되어 있으며 Design Pattern이 적용될 수 있다.
+   + 각 컴포넌트의 설계를 작성한다.
+   + Class들로 구성되어 있으며 Design Pattern이 적용될 수 있다.
+   
 1. Static Structure Diagram
-   ++ Class Diagram을 통해 Static Structure View를 보여준다.
-   ++ 적용된 Design Pattern이 표현될 수 있다.
+   + Class Diagram을 통해 Static Structure View를 보여준다.
+   + 적용된 Design Pattern이 표현될 수 있다.
+   <img src="https://user-images.githubusercontent.com/77768139/186426611-1ec122f1-66aa-42b0-993c-97fcdc2e66e8.jpg" width="800" height="700"/>
+   
 2. Behavior Diagram
    + Sequence Diagram을 통해 Behavior을 보여준다.
+   <img src="https://user-images.githubusercontent.com/77768139/186426777-c886f692-035c-476a-8a69-6a1f04f46563.jpg" width="800" height="700"/>
 
 ## 6. Architecture Evaluation
-   ++ 각 Use Case들이 구현되어 있는지, 어느 요소에 포함이 되어 있는지 추적확인을 한다.
+   + 각 Use Case들이 구현되어 있는지, 어느 요소에 포함이 되어 있는지 추적확인을 한다.
+   <img src="https://user-images.githubusercontent.com/77768139/186426469-7af11a30-4758-4988-8e84-f18ce47993b9.JPG" width="600" height="500"/>
