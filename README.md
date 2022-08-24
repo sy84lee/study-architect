@@ -24,6 +24,8 @@
 ## 2. System Overview
 1. System Context Diagram
    + Business Goal을 고려하여 System이 가져야 할 기능들에 대해 System Context Diagram을 작성한다.
+   + System Context Diagram을 작성한다는 것은 SW 설계를 시작하는 것에 있어 가장 기초가 되는 작업을 하는 것이다.
+   + System Context Diagram을 꼼꼼하게 작성해야 프로젝트에서 개발하고자 하는 시스템 또는 프로그램의 기능을 누락시키지 않을 수 있다.
    <img src="https://user-images.githubusercontent.com/77768139/186164756-07239ca9-3ba6-4aa2-8cf9-144da6d991d4.jpg" width="800" height="800"/>
 
 2. External Entity
