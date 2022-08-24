@@ -47,7 +47,7 @@
    
    + Use Case List
       + Use Case Diagram에서 작성한 Use Case List를 작성한다.
-      <img src="https://user-images.githubusercontent.com/77768139/186419338-686121b2-15d5-4322-8bb1-0d01bc8ebba1.JPG" width="500" height="250"/>
+      <img src="https://user-images.githubusercontent.com/77768139/186419338-686121b2-15d5-4322-8bb1-0d01bc8ebba1.JPG" width="500" height="150"/>
    
    + Use Case Description
       + 각 Use Case의 Description을 작성한다.
